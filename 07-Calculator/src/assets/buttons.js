@@ -2,105 +2,124 @@ export const buttons=[[
     {
       class: 'special',
       label: 'C',
-      function: 'clearDisplay'
+      function: 'clearDisplay',
+      columns: 1
     },
     {
       class: 'special',
       label: '<',
-      function: 'deleteLastCharacter'
+      function: 'deleteLastCharacter',
+      columns: 1
     },
     {
       class: 'special',
       label: '%',
-      function: 'setOperator'
+      function: 'setOperator',
+      columns: 1
     },
     {
       class: 'special',
       label: '/',
-      function: 'setOperator'
+      function: 'setOperator',
+      columns: 1
     }
   ],
   [
     {
       class: 'special',
       label: '7',
-      function: 'updateDisplay'
+      function: 'updateDisplay',
+      columns: 1
     },
     {
-      class: 'special',
+      class: 'number',
       label: '8',
-      function: 'updateDisplay'
+      function: 'updateDisplay',
+      columns: 1
     },
     {
       class: 'special',
       label: '9',
-      function: 'updateDisplay'
+      function: 'updateDisplay',
+      columns: 1
     },
     {
       class: 'special',
       label: 'X',
-      function: 'setOperator'
+      function: 'setOperator',
+      columns: 1
     }
   ],
   [
     {
       class: 'special',
       label: '4',
-      function: 'updateDisplay'
+      function: 'updateDisplay',
+      columns: 1
     },
     {
       class: 'special',
       label: '5',
-      function: 'updateDisplay'
+      function: 'updateDisplay',
+      columns: 1
     },
     {
       class: 'special',
       label: '6',
-      function: 'updateDisplay'
+      function: 'updateDisplay',
+      columns: 1
     },
     {
       class: 'special',
       label: '-',
-      function: 'setOperator'
+      function: 'setOperator',
+      columns: 1
     }
   ],
   [
     {
       class: 'special',
       label: '1',
-      function: 'updateDisplay'
+      function: 'updateDisplay',
+      columns: 1
     },
     {
       class: 'special',
       label: '2',
-      function: 'updateDisplay'
+      function: 'updateDisplay',
+      columns: 1
     },
     {
       class: 'special',
       label: '3',
-      function: 'updateDisplay'
+      function: 'updateDisplay',
+      columns: 1
     },
     {
       class: 'special',
       label: '+',
-      function: 'setOperator'
+      function: 'setOperator',
+      columns: 1
     }
   ],
   [
     {
       class: 'special',
       label: '0',
-      function: 'updateDisplay'
+      function: 'updateDisplay',
+      columns: 2
     },
     {
       class: 'special',
       label: '.',
-      function: 'updateDisplay'
+      function: 'updateDisplay',
+      columns: 1
     },
     {
       class: 'special',
       label: '=',
-      function: 'calculate'
+      function: 'calculate',
+      columns: 1
     },
   ]
   ]
